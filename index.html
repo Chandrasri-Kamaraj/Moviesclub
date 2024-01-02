@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviesclub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <h1>Moviesclub</h1>
+    <div class="container">
+        <div class="container-box">
+            <h2>Ethirneechal</h2>
+            <h5>Motivation</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iste tempora deserunt minima ullam dolores veniam exercitationem! Voluptas illo quos magni dolores, dolore tenetur. Cum recusandae aspernatur nesciunt sint consequatur.</p>
+            <button onclick="deletemovie(event)">Delete</button>
+        </div>
+    </div>
+    
+    <div class="overlay"></div>
+    <div class="add-container">
+        <h2>Add movie</h2>
+        <form>
+         <input type="text" placeholder="Enter the movie name" id="movie-name">
+         <input type="text" placeholder=" Enter Movie type" id="movie-type">
+         <textarea placeholder="short description" id="movie-description"></textarea>
+         <button id="add-movie">ADD</button>
+         <button id="cancel-movie">CANCEL</button>
+         
+        </form>
+    </div>
+    <button class="add-button" id="addpopup" >+</button>
+    <script src="script.js"></script>
+</body>
+</html>
